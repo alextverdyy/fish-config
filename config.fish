@@ -1,4 +1,9 @@
+# Starship
 starship init fish | source
+
+# Carapace
+set -Ux CARAPACE_BRIDGES 'zsh,fish,bash,inshellisense' # optional
+carapace _carapace | source
 
 # Host specific config
 set host_config ~/.config/fish/config.(hostname).fish
