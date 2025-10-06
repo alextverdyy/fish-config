@@ -14,3 +14,6 @@ set user_config ~/.config/fish/config.user.fish
 test -r $user_config; and source $host_config
 
 alias lg lazygit
+
+function fish_greeting
+end
